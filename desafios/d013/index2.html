@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de Tabelas 002</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        td,th{
+            border: 1px solid black;
+            padding: 7px;
+        
+        }
+
+        th.negrito{
+            font-weight: bold;
+        }
+
+        th.esp{
+            background-color: rgba(0, 0, 0, 0.822);
+            color: white;
+            font-size: 1.1em;
+        }
+
+      
+
+        caption{
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding: 5px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Filmes Favoritos</caption>
+            <thead>
+                <tr>
+                    <th class="esp" class="negrito">A</th>
+                    <th class="esp" class="negrito">B</th>
+                    <th class="esp" class="negrito">C</th>
+                    <th class="esp" class="negrito">D</th>
+                    <th class="esp" class="negrito">E</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th scope="col" class="negrito">Grupos</th>
+                    <th scope="col" class="negrito">Nomes</th>
+                    <th scope="colgroup" colspan="3" class="negrito">Filmes</th>
+                </tr>
+                <tr>
+                    <th scope="rowgroup" rowspan="3" class="negrito" >Mulheres</th>
+                    <td>Thainá de Sousa</td>
+                    <td>Pretty Woman</td>
+                    <td>Jogos Vorazes</td>
+                    <td>Inception</td>
+                </tr>
+                <tr>
+                    <td>Thais Pereira</td>
+                    <td>Mamma Mia</td>
+                    <td>Star Wars</td>
+                    <td>Dangal</td>
+                </tr>
+                <tr>
+                    <td>Anna Clara</td>
+                    <td>Procurando Nemo</td>
+                    <td>Toy Story</td>
+                    <td>Vingadores</td>
+                </tr>
+                <tr>
+                    <th rowspan="3" class="negrito">Homens</th>
+                    <td>Valter Machado</td>
+                    <td>Harry Potter</td>
+                    <td>Batman</td>
+                    <td>Matrix</td>
+                </tr>
+                <tr>
+                    <td>Gui Silva</td>
+                    <td>Tropa de Elite</td>
+                    <td>V. e Furiosos</td>
+                    <td>Wall-E</td>
+                </tr>
+                <tr>
+                    <td>Vinícius Sousa</td>
+                    <td>Big Hero</td>
+                    <td>Oldboy</td>
+                    <td>Gladiador</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <th colspan="4" scope="row">Total</th>
+                <td>1000</td>
+            </tfoot>
+    </table>
+</body>
+</html>

@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
 /* APARELHO DEITADO (LENDSCAPE) */
+
+body {
+   background: url(../imagens-02/cev-landscape.jpg);
+   background-position: center;
+}

@@ -17,7 +17,7 @@
     }
 
     main::after {
-        content: "Essa impressão foi feita atarvés do site www.cursoemvideo.com";
+        content: "Essa impressão foi feita através do site www.cursoemvideo.com";
         text-decoration: underline;
     }
 
